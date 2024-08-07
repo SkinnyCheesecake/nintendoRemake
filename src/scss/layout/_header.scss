@@ -1,0 +1,11 @@
+@use 'general/variables' as *;
+
+.title{
+    color: $white;
+}
+
+.section{
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
