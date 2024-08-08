@@ -1,0 +1,10 @@
+@use 'general/variables' as *;
+
+.store-content{
+        .image{
+            width: 100%;
+            height: 15rem;
+            border-radius: 15px;
+            background-color: blue;
+    }
+}

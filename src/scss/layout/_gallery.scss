@@ -1,0 +1,28 @@
+@use 'general/variables' as *;
+
+.gallery_container{
+    background-color: white;
+    min-height: 80.5rem;
+    width: 100vw;
+
+    &-games{
+        min-height: 71.4rem;
+        background-color: red;
+    }
+
+    &-carrousell{
+        height: 91px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+
+        .game{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 10px;
+        }
+
+    }
+}

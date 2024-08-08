@@ -1,0 +1,62 @@
+@use 'general/variables' as *;
+
+.main-container{
+    overflow: hidden;
+}
+
+.featured{
+    //min-height: 47.5rem;
+    min-width: 400vw;
+    overflow-x: scroll;
+    
+
+    &-games{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+.feature{
+    width: 260px;
+    height: 320px;
+    border: 1px solid $light-gray;
+    border-radius: 16px;
+    
+    position: relative;
+
+    &-image{
+        border-radius: 16px 16px 0 0;
+        height: 45%;
+        background-color: blue;
+    }
+
+
+    &-info{
+        margin-inline: 2rem;
+
+        .title{
+            font-size: 1.5rem;
+            color: $black;
+        }
+    }
+}
+
+.stuff{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 12;
+    margin-bottom: 3rem;
+}
+
+.status{
+    background-color: $red;
+    padding: 0.2rem 1rem;
+    color: $white;
+    width: fit-content;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
