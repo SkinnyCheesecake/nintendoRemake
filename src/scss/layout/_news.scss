@@ -1,0 +1,57 @@
+@use 'general/variables' as *;
+
+.news-firstcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    
+
+}
+
+.news-secondcontainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2REM;
+
+    .new-pic{
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+}
+
+.new{
+        
+    &-pic{
+        width: 100%;
+        height: 250px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+
+    &-date{
+        font-size: 1.6rem;
+    }
+
+    &-legend{
+        font-size: 1.6rem;
+        color: $black;
+        font-weight: 600;
+    }
+
+    &-info{
+        font-size: 1.5rem;
+        color: $black;
+    }
+
+    &-readmore{
+        font-size: 1.5rem;
+        color: $red;
+        margin: 2rem 0 4rem 0;
+    }
+
+}
